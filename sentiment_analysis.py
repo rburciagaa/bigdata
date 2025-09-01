@@ -33,7 +33,7 @@ tqdm.pandas()# para mostrar barras de progreso en pandas
 # ==============================
 # Extraer archivos del ZIP
 def extraer_zip():
-    zip_path = "archive.zip"
+    zip_path = "imdb.zip"
     extract_path = Path("extracted_files")
     if not extract_path.exists():
         print("Creando directorio y extrayendo ZIP...")
